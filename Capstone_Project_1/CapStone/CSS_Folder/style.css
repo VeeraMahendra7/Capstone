@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.main-container{
+    height: 100%;
+    background-color: #fff;
+}
+.main-container .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin-bottom: 15px;
+}
+.main-container .head h1{
+    font-style: italic;
+    color: #918f8f;
+    font-size: 50px;
+}
+.main-container .head ion-icon{
+    margin: 2px 30px;
+    font-size: 40px;
+    color: #1847b8;
+}
+.container{
+    height: 92%;
+    background: url('../Images/laptop.jpg');
+    background-size: 100% 100%;
+    position: relative;
+}
+.container h1{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+}
+.container .cards-container{
+    position: absolute;
+    width: 30%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0px 10px;
+    top: 350px;
+    left: 950px;
+}
+.container .cards-container .card{
+    height: 90%;
+    width: 95%;
+    min-width: 250px;
+    box-sizing: border-box;
+    padding: 40px 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+}
+.container .cards-container .card h2{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.container .cards-container .card i{
+    color: blue;
+    padding: 40px 25px;
+    background-color: #e5e5e5;
+    border-radius: 50px;
+}
+
+.Awesome{
+    height: 100vh;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Awesome h2{
+    margin-top: 40px;
+    font-size: 80px;
+    font-weight: normal;
+    text-align: center;
+}
+.Awesome p.para{
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+}
+.crd{
+    margin-top: 70px;
+    width: 65%;
+    box-sizing: border-box;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+}
+.crd i{
+    background-color: blue;
+    padding: 30px 14px 1px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    color: #fff;
+}
+.cd{
+    width: 100%;
+    font-size: 20px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    gap: 20px;
+}
+section{
+    margin-left: 15px;
+}
+section h1{
+    margin-bottom: 20px;
+}
+
+.image{
+    height: 100vh;
+    background-color: #fff;
+    padding: 50px 100px;
+    display: flex;
+}
+.blue-box{
+    height: 80%;
+    width: 60%;
+    background-color: #1847b8;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 70px;
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+.blue-box h2{
+    color: #fff;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.blue-box p{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-style: italic;
+}
+.blue-box .btn{
+    margin: 80px 40px;
+    padding: 22px 50px;
+    border-radius: 50px;
+    background-color: #1847b8;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.blue-box .imge{
+    height: 100%;
+    width: 60%;
+    background: url('../Images/profile.jpg');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    border-radius: 20px;
+}
+
+.phone{
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    display: flex;
+}
+.phone .left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.phone .left .cell{
+    height: 50%;
+    width: 65%;
+    background-color: #1847b8;
+    border-radius: 50%;
+}
+.phone .left .cell img{
+    position: absolute;
+    bottom: 120px;
+    left: 170px;
+}
+.phone .right{
+    height: 100%;
+    width: 60%;
+    padding: 40px 20px;
+}
+.phone .right .h{
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-size: 25px;
+}
+.phone .right h1{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.phone .right p{
+    margin-top: 20px;
+    margin-right: 169px;
+    font-size: 25px;
+    color: #c2bcbc;
+    text-align: justify;
+}
+.phone .right h2{
+    margin: 20px;
+    color: #9f9d9d;
+    font-size: 27px;
+    font-weight: normal;
+}
+.phone .right .btnn{
+    padding: 30px 50px;
+    margin: 50px 20px;
+    background-color: #1847b8;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.Started{
+    height: 40vh;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Started .get{
+    padding: 50px;
+    height: 70%;
+    width: 70%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Started .get i{
+    padding: 40px 25px;
+    background-color: #1847b8;
+    border-radius: 50px;
+    color: #fff;
+}
+.Started .get section{
+    margin-right: 300px;
+}
+.Started .get section h1{
+    font-size: 69px;
+    font-weight: 100;
+}
+.Started .get section p{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.Started .get .us{
+    padding: 24px 50px;
+    background-color: #1847b8;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.About{
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+}
+.About .dives{
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 600px;
+}
+.About .bluediv{
+    height: 50%;
+    width: 12%;
+    background-color: #1847b8;
+    border-radius: 50%;
+    
+}
+#stripes{
+    background: url('../Images/diagonal-stripe-fabric-cerulean-blue-184583_600x.png');
+    background-size: 120% 120%;
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+.girlImge{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 550px;
+    width: 550px;
+    background: url('../Images/girl.jpg');
+    background-size: 100% 100%;
+    border-radius: 10px;
+    z-index: 69;
+}
+#text{
+    position: relative;
+}
+.texts{
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(236, 235, 235);
+    border-radius: 10px;
+    padding: 50px 20px 30px 120px;
+}
+.texts h2{
+    font-size: 50px;
+    font-weight: 100;
+}
+.texts .par{
+    letter-spacing: 0.7px;
+    font-size: 22px;
+    margin-top: 14px;
+}
+.texts .bt{
+    padding: 20px 40px;
+    background-color: #1847b8;
+    border: none;
+    color: #fff;
+    margin: 40px 0px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+}
+.build{
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    height: 350px;
+    width: 500px;
+    background: url('../Images/building.jpg');
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+
+.People{
+    height: 90vh;
+    background-color: #e5e5e5;
+
+}
+.header{
+    height: 30%;
+    padding: 50px 0px;
+}
+.header h1{
+    font-size: 69px;
+    text-align: center;
+    font-weight: normal;
+}
+.header p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.tri-cards{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.artcard{
+    margin: 10px;
+    height: 80%;
+    width: 17%;
+}
+.artcard .txt{
+    height: 70%;
+    width: 100%;
+    padding: 0px 20px;
+    border-radius: 12px;
+    background-color: #1847b8;
+}
+.artcard .txt h1{
+    color: #fff;
+    font-size: 50px;
+}
+.artcard .txt .part{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+}
+.artcard .images{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.artcard .images img{
+  height: 80px;
+  width: 70px;
+  border-radius: 50%;
+  border: 5px solid blue;
+  margin-left: 20px;
+}
+.artcard .images h2{
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.Teams{
+    height: 100vh;
+    background-color: #f0eeee;
+}
+.Teams .b{
+    height: 65%;
+    width: 50%;
+    background-color: #1847b8;
+    position: relative;
+    top: 200px;
+    left: 650px;
+    border-radius: 15px;
+}
+.Teams .b .im{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 120px;
+    right: 120px;
+    background: url('../Images/teams.jpg');
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.Teams .b .im .eff{
+    height: 60%;
+    width: 72%;
+    background-color: #fff;
+    position: absolute;
+    top: 460px;
+    right: 450px;
+    border-radius: 15px;
+    padding: 50px 30px 30px;
+}
+.Teams .b .im .eff h1{
+    font-size: 69px;
+    font-weight: normal;
+}
+.Teams .b .im .eff .rap{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.Teams .b .im .eff .ntb{
+    padding: 20px 60px;
+    border: none;
+    background-color: #1847b8;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.topdiv{
+    height: 25vh;
+    background-color: #f0eeee;
+    display: flex;
+    justify-content: center;
+}
+.topdiv .card{
+    height: 69%;
+    width: 16%;
+    background-color: #fff;
+    margin: 90px 20px 0px;
+    display: grid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.topdiv .card i{
+    color: blue;
+    font-size: 69px;
+    padding: 69px 100px 30px;
+}
+.topdiv .card .fal{
+    margin-left: 15px;
+}
+.topdiv .card h2{
+    font-weight: 100;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.bottomdiv{
+    height: 15vh;
+    background-color: #1847b8;
+    display: flex;
+    justify-content: center;
+}
+.bottomdiv .cad{
+    height: 80%;
+    width: 16%;
+    background-color: #fff;
+    margin: 0px 20px 0px;
+    display: grid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bottomdiv .cad .rpa{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.Touch{
+    height: 69vh;
+    background-color: #1847b8;
+    display: flex;
+}
+.Touch .Tleft{
+    height: 100%;
+    width: 50%;
+    padding: 30px 0px 0px 400px;
+}
+.Touch .Tleft h1{
+    font-size: 69px;
+    font-weight: 100;
+    color: #fff;
+}
+.Touch .Tleft h5{
+    font-size: 25px;
+    font-style: italic;
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+}
+.Touch .Tleft .pt{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+.Touch .Tleft .icons{
+    margin-top: 69px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.Touch .Tleft .icons i{
+    font-size: 45px;
+    color: #fff;
+}
+.Touch .Tright{
+    height: 100%;
+    width: 50%;
+    padding: 30px 0px 0px 50px;
+}
+.Touch .Tright label{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Touch .Tright input{
+    background-color: #1847b8;
+    outline: none;
+    border-width: 3px;
+    border-color: transparent transparent #fff transparent;
+    padding: 10px 30px 15px 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.Touch .Tright textarea{
+    padding-top: 5px;
+    outline: none;
+    border-width: 3px;
+    background-color: #1847b8;
+    border-color: transparent transparent #fff transparent;
+    color: #fff;
+}
+.Touch .Tright .btp{
+    margin-top: 25px;
+    padding: 14px 240px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.bot{
+    height: 30vh;
+    background-color: rgb(49, 48, 48);
+    display: grid;
+    justify-items: center;
+    padding-top: 40px;
+    color: #fff;
+}
+.bot .v{
+    font-size: 20px;
+    text-align: center;
+}
